@@ -1,5 +1,5 @@
 {
   "version": 2,
-  "builds": [{ "src": "clone-server.js", "use": "@vercel/node" }],
-  "routes": [{ "src": "/(.*)", "dest": "clone-server.js" }]
+  "builds": [{ "src": "server.py", "use": "@vercel/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "server.py" }]
 }
